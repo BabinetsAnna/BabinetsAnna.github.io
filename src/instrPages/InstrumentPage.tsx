@@ -12,7 +12,7 @@ const InstrumentPage: React.FC = () => {
   if (!instrument) return <div>Інструмент не знайдено</div>;
 
   // Динамічний імпорт сторінки з інструментом за допомогою React.lazy() та import()
-  const InstrumentComponent = lazy(() => import(`./${instrument.pageName}`));
+  const InstrumentComponent = lazy(() => import(/* @vite-ignore */ `./${instrument.pageName}.tsx`));
 
   return (
     <div className='instrument-page'>
