@@ -4,7 +4,7 @@ import Instrument from './Instrument';
 const instruments: Instrument[] = [
   {
     name: 'Калімба',
-    photoUrl: './assets/instruments/kalimba/kalimba.jpg',
+    photoUrl: 'https://www.hluru.shop/cdn/shop/products/Hluru17KeyKalimbaThumbPiano_AmericanBlackWalnutWedge-shapedSingleBoardKalimbaInstrument0041_22e2d94a-449d-431b-a716-63b30dfc33a2.jpg?v=1642404644&width=1946',
     pageName: 'Kalimba',
   
   },
