@@ -4,23 +4,23 @@ import Instrument from './Instrument';
 const instruments: Instrument[] = [
   {
     name: 'Калімба',
-    photoUrl: '/src/assets/instruments/kalimba/kalimba.jpg',
+    photoUrl: './assets/instruments/kalimba/kalimba.jpg',
     pageName: 'Kalimba',
   
   },
   {
     name: 'Казу',
-    photoUrl: '/src/assets/instruments/kazoo/kazu.jpg',
+    photoUrl: './assets/instruments/kazoo/kazu.jpg',
     pageName: 'Kazoo'
   },
   {
     name: 'Окарина',
-    photoUrl: '/src/assets/instruments/ocarina/ocarina.webp',
+    photoUrl: './assets/instruments/ocarina/ocarina.webp',
     pageName: 'Ocarina'
   },
   {
     name: 'Терменвокс',
-    photoUrl: '/src/assets/instruments/Theremin/Theremin.jpg',
+    photoUrl: './assets/instruments/Theremin/Theremin.jpg',
     pageName: 'Theremin'
   },
   {
