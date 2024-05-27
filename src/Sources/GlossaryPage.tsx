@@ -24,7 +24,7 @@ const GlossaryPage: React.FC = () => {
 
     return (
       <div className='main-gloss'>
-        <Link to={`/instrument/${glossaryItem.link}`} className="back-button"><FontAwesomeIcon icon={faChevronLeft} className="icon" /></Link>
+        <Link to={`/${glossaryItem.link}`} className="back-button"><FontAwesomeIcon icon={faChevronLeft} className="icon" /></Link>
         <div className='container-gloss content-gloss'>
           <h1>{glossaryItem.word}</h1>
           <p>{glossaryItem.meaning}</p>
@@ -46,7 +46,7 @@ const GlossaryPage: React.FC = () => {
         <ul className="content-gloss">
           {sortedGlossaryData.map(item => (
             <li className="list-item-gloss" key={item.word}>
-              <Link className="link-gloss" to={`/instrument/${item.link}`}>
+              <Link className="link-gloss" to={`/${item.link}`}>
                 {item.word}
               </Link>: {item.meaning}
             </li>
